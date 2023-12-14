@@ -7,7 +7,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key});
 
-// deneme
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +15,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Container(),
+      home: Scaffold(
+        body: Text("Hasan"),
+      ),
     );
   }
 }
